@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap");
+
+@font-face{
+  font-family: autobahn;
+  src: url("https://surrender.tk/fonts/Autobahn.ttf");
+}
+
+
 body{
   margin: 0;
-
+  font-family: "Roboto", sans-serif;
 }
 
 nav{
@@ -15,6 +23,18 @@ nav img{
   width: 50px;
   height: auto;
 }
+.logoname{
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.logoname .name{
+  margin-left: 20px;
+  font-size: 20pt;
+  font-family: autobahn;
+  font-style: uppercase;
+
+}
 nav a{
   text-decoration: none !important;
   margin-right: 5px;
@@ -25,8 +45,4 @@ nav a{
 nav a:hover{
   background: #fff;
   color: #242424;
-}
-
-.right{
-  
 }
