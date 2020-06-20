@@ -4,10 +4,12 @@ class NavMenu extends Component {
   constructor(props){
     super(props)
     this.state = {
-      logo: 'https://surrender.tk/img/logo-flag.png'
+      logo: 'https://surrender.tk/img/logo-flag.png',
+      home: 'Home'
     }
+
     this.menu = {
-      home: "Főoldal"
+      home: 'home.php'
     }
   }
 
@@ -17,7 +19,7 @@ class NavMenu extends Component {
       <nav>
         <img src={this.state.logo} alt="logo"/>
         <div className="right">
-          <a href="">{this.menu.home}</a>
+          <a href={this.menu.home}>{this.state.home}</a>
           <a href="">Pricing</a>
           <a href="">About us</a>
         </div>
