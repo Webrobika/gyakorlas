@@ -1,3 +1,32 @@
-h1, p {
-  font-family: Lato;
+body{
+  margin: 0;
+
+}
+
+nav{
+  background: #242424;
+  padding: 10px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+nav img{
+  width: 50px;
+  height: auto;
+}
+nav a{
+  text-decoration: none !important;
+  margin-right: 5px;
+  padding: 5px;
+  color: #fff;
+
+}
+nav a:hover{
+  background: #fff;
+  color: #242424;
+}
+
+.right{
+  
 }

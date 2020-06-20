@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
+///Import the components
+import NavMenu from './components/NavMenu';
+
 class App extends Component {
   constructor() {
     super();
@@ -13,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div>
-       
+       <NavMenu/>
       </div>
     );
   }
